@@ -1,8 +1,15 @@
 
 @import url(fontawesome.css);
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
+@import url("<link href="https://www.freebestfonts.com/louis-george-caf-font" rel="stylesheet">");
+@import url("<link href="https://www.dafontfree.net/freefonts-lemon-milk-f45788.htm" rel="stylesheet">");
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: louis louis-george-caf-font ;
 }
 
 a {
@@ -163,12 +170,13 @@ a.menu-link { display: none; }
     z-index: 12;
     width: 100%;
     top: 0;
+    box-shadow: 5px 10px rgb(76, 111, 122);
 }
 
 .main-header .logo {
     float: left;
     line-height: 80px;
-    padding-left: 20px;
+    padding-left: 1px;
 }
 
 .main-header .logo a {
@@ -1121,7 +1129,7 @@ button::-moz-focus-inner {
   color: #FFF;
   font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace;
+  font-family: lemon-milk-regular;
 }
 
 .mfp-close:hover,
@@ -1410,6 +1418,7 @@ section.contact {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
+    padding-top: 100px;
     padding-bottom: 120px;
 }
 
@@ -1579,4 +1588,60 @@ height: 20%;
 }
 #bil{
   height: 190px;
+}
+#fondateurs{
+  padding-top: 90px;
+  background-color: #1f2746;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.ab{
+  border-radius: 50%;
+  border: 5px solid #3FC;
+}
+#opus {
+  margin-bottom: 100px;
+  position: relative;
+  animation: moveimg 5s infinite;
+  animation-delay: 6s;
+}
+@keyframes moveimg {
+  from {top: 0px;}
+  to {top: 90px;}
+}
+.team{
+  color: #3CF;
+  font-size: 30px;
+  text-align:center;
+  width: 250px;
+  display: inline;
+  font-family: lemon-milk-regular;
+}
+.parag{
+  color: #ffffff;
+  font-family:louis louis-george-caf-font;
+  font-size: 20px;
+  text-align: center;
+}
+#see{
+  margin-left: 70%;
+  border: 2px solid #3CF;
+}
+#work{
+  margin-top:0% ;
+  margin-bottom: 0%;
+  padding-top: 0px;
+  background-color:#1f2746;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-family: louis louis-george-caf-font;
+}
+#teamw{
+  text-align: center;
+  font-size: 30px;
+  font-family: louis louis-george-caf-font;
+  padding: 10px;
 }
